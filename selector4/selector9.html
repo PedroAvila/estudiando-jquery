@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores 9</title>
+</head>
+<body>
+    
+    <ul>
+        <li class="uno">texto 1</li>
+        <li class="dos">texto 2</li>
+        <li class="tres">texto 3</li>
+        
+    </ul>
+
+
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript">
+        //Selección del elemento siguiente
+        $(document).ready(function () {
+            $("li.uno + li").css("border", "2px double black")
+        });
+
+    </script>
+
+</body>
+</html>
